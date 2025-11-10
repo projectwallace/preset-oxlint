@@ -1,15 +1,21 @@
 {
   "name": "@projectwallace/preset-oxlint",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Opinionated preset for Oxlint",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/projectwallace/preset-oxlint.git"
+  },
+  "homepage": "https://github.com/projectwallace/preset-oxlint",
+  "issues": "https://github.com/projectwallace/preset-oxlint/issues",
+  "license": "MIT",
+  "author": "Bart Veneman <bart@projectwallace.com>",
   "main": "index.json",
   "scripts": {},
   "keywords": [
     "oxlint",
     "preset"
   ],
-  "author": "Bart Veneman",
-  "license": "MIT",
   "type": "module",
   "files": [
     "index.json"
