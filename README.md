@@ -10,7 +10,7 @@ npm i --save-dev oxlint @projectwallace/preset-oxlint
 
 In `package.json`:
 
-```json
+```jsonc
 {
   "scripts": {
     "lint": "oxlint --config .oxlintrc.json"
@@ -20,7 +20,7 @@ In `package.json`:
 
 Create an `.oxlintrc.json`:
 
-```json
+```jsonc
 {
   "$schema": "./node_modules/oxlint/configuration_schema.json",
   "extends": ["@projectwallace/preset-oxlint"],
