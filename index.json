@@ -5,7 +5,8 @@
 		"typescript",
 		"oxc",
 		"unicorn",
-		"vitest"
+		"vitest",
+		"jest"
 	],
 	"env": {
 		"es2024": true
@@ -93,7 +94,8 @@
 		// Vitest plugin rules
 		// ============================================================
 		// Always use `test()` instead of `it()` for consistency
-		"vitest/consistent-test-it": [
+		// Uses 'jest' because they use the same logic, apparently
+		"jest/consistent-test-it": [
 			"error",
 			{
         "fn": "test",
