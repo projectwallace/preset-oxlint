@@ -82,6 +82,8 @@
 		"prefer-string-slice": "off",
 		// Warn about async functions that don't use await
 		"require-await": "warn",
+		// Require {} around if- and for-blocks
+		"curly": "error",
 
 		// ============================================================
 		// Eslint plugin rules
