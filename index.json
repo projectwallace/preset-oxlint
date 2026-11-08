@@ -84,6 +84,27 @@
 		"require-await": "warn",
 		// Require {} around if- and for-blocks
 		"curly": "error",
+		// Use `const`
+		"prefer-const": "error",
+		// No really, use `const`
+		"no-var": "error",
+		// Really use them `const`
+		"no-unused-vars": "error",
+		// `function my_fn() {}`, not `const my_fn = () => {}`
+		"func-style": ["error", "declaration", { "allowArrowFunctions": false }],
+		// Relative imports must use `.ts` so the source runs as-is in Node (type stripping)
+		"import/extensions": [
+			"error",
+			"always",
+			{
+				"ignorePackages": true,
+				"pattern": {
+					"js": "never",
+					"mjs": "never",
+					"cjs": "never"
+				}
+			}
+		],
 
 		// ============================================================
 		// Eslint plugin rules
