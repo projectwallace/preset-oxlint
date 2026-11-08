@@ -7,7 +7,24 @@ updates:
     directory: '/'
     schedule:
       interval: 'monthly'
+    cooldown:
+      default-days: 7
+    groups:
+      projectwallace:
+        patterns:
+          - '@projectwallace/*'
+      npm-dependencies:
+        patterns:
+          - '*'
+        exclude-patterns:
+          - '@projectwallace/*'
   - package-ecosystem: 'github-actions'
     directory: '/'
     schedule:
       interval: 'monthly'
+    cooldown:
+      default-days: 7
+    groups:
+      github-actions:
+        patterns:
+          - '*'
