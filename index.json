@@ -68,8 +68,6 @@
 		"no-rest-spread-properties": "off",
 		// Allow using undefined as a value
 		"no-undefined": "off",
-		// Allow unused variables (handled by TypeScript)
-		"no-unused-vars": "off",
 		// Allow explicit return of undefined
 		"no-useless-undefined": "off",
 		// Don't enforce String.codePointAt over String.charCodeAt
