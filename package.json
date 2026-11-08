@@ -11,7 +11,10 @@
   "license": "MIT",
   "author": "Bart Veneman <bart@projectwallace.com>",
   "main": "index.json",
-  "scripts": {},
+  "scripts": {
+    "lint:config": "oxlint --config index.json --print-config > /dev/null",
+    "lint:package": "publint"
+  },
   "keywords": [
     "oxlint",
     "preset"
@@ -22,5 +25,10 @@
   ],
   "peerDependencies": {
     "oxlint": "^1.0.0"
-  }
+  },
+  "devDependencies": {
+    "oxlint": "^1.92.0",
+    "publint": "^0.3.25"
+  },
+  "packageManager": "pnpm@10.28.0"
 }
